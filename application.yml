@@ -5,3 +5,9 @@ eureka:
       prefer-ip-address: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+microservice:
+  http-bin:
+    endpoints:
+      endpoint:
+        uri: http://httpbin.org/
